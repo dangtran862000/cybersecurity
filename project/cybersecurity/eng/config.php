@@ -1,5 +1,7 @@
 <?php
-    $conn = mysqli_connect("database-2.cngkjymfa2ma.us-east-1.rds.amazonaws.com
-","danghai_admin","12345678","zwromzds_cyber_db","3306");
-    mysqli_set_charset($conn, "utf8");
+ $conn = new mysqli("database-4.cngkjymfa2ma.us-east-1.rds.amazonaws.com","admin","12345678","zwromzds_cyber_db");
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
 ?>
