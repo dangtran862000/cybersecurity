@@ -69,10 +69,10 @@ body, html {height: 100%}
     <hr class="w3-border-grey" style="margin:auto;width:40%">
     <div class="subrow" style="margin-top: 5%;">
       <div class="subcolumn">
-        <a href="https://dthlweb.com/cybersecurity/eng/login.php" target="_blank"><img class="imgheader" src="Image\engchoose.png" style="width: 100%; "></img></a>
+        <a href="cybersecurity/eng/login.php" target="_blank"><img class="imgheader" src="Image\engchoose.png" style="width: 100%; "></img></a>
       </div>
       <div class="subcolumn">
-        <a href="https://dthlweb.com/cybersecurity/vn/login.php" target="_blank"><img class="imgheader" src="Image\vnchoose.png" style="width: 100%; "></img></a>
+        <a href="cybersecurity/vn/login.php" target="_blank"><img class="imgheader" src="Image\vnchoose.png" style="width: 100%; "></img></a>
       </div>
     </div>
   </div>
